@@ -1,0 +1,17 @@
+Ruta
+app.post('/reporte', (req, res) => {
+  const mensaje = req.body.mensaje;
+  res.json({
+    estado: "Reporte recibido",
+    mensaje: mensaje
+  });
+});
+
+Qué hace esta ruta?
+
+En una aplicación comunitaria, esta ruta podría servir para que los ciudadanos envíen reportes de problemas, sugerencias o avisos (por ejemplo, fallas en servicios, propuestas de actividades o denuncias). 
+
+Para qué podría servir en una aplicación comunitaria?
+
+De esta manera, la comunidad tendría un canal digital organizado para participar, comunicar y fortalecer la confianza, contribuyendo a la cultura de paz y la convivencia.O
+
