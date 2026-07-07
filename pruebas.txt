@@ -1,5 +1,0 @@
-http://localhost:3000: Es la ruta principal del servidor. Normalmente responde con un mensaje inicial o página de bienvenida definida en tu código.
-
-http://localhost:3000/saludo : Es una ruta GET que devuelve un saludo (por ejemplo: “¡Hola, Kevin!”) según lo que hayas programado en Express.
-
-http://localhost:3000/mensaje/juan: Es una ruta con parámetro dinámico (juan). El servidor recibe ese valor y lo usa para responder, por ejemplo mostrando “Mensaje para juan” o guardando el nombre en la lógica de la aplicación.
